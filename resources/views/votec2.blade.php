@@ -115,15 +115,14 @@
                     <form action="{{ route('votec2') }}" method="POST">
                         @csrf
 
+                        <div align="center" class="mb-3">
 
-                        <div class="mb-3">
-                            <button class="btn btn-primary" style="display:flex; padding :10px;">OUI</button>
-                        </div>
-                        <div>
-                        <button style="display:flex; background-color:red; padding:10px;" class="btn btn-primary"><a href="{{url('/home')}}" style="color: white; text-decoration:none;">NON</a></button>
-                        </div>
-            </div>
+<button class="btn btn-primary" style="padding :10px;">OUI</button>
 
+<div style="background-color:red; padding:14px; margin-top:-50px; " class="btn btn-primary"><a href="{{url('/home')}}" style="color: white; text-decoration:none;">RETOUR</a></div>
+
+</div>
+</form>
         </div>
     </div>
 </body>

@@ -116,7 +116,7 @@ tr th[scope="row"]::before {
     <h2 class="mb-4">christopher</h2>
     <table class="table table-bordered table-hover">
         <tr>
-            <th scope="row" colspan="4" style="background-color:green;">Total vote: {{ $Candidat1 }}</th>
+            <th scope="row" colspan="4" style="background-color:#42B8FF;">Total vote: {{ $Candidat1 }}</th>
         </tr>
     </table>
 </div>
@@ -125,7 +125,7 @@ tr th[scope="row"]::before {
     <h2 class="mb-4">christian</h2>
     <table class="table table-bordered table-hover">
         <tr>
-            <th scope="row" colspan="4" style="background-color:green;">Total vote: {{ $Candidat2 }}</th>
+            <th scope="row" colspan="4" style="background-color:#42B8FF;">Total vote: {{ $Candidat2 }}</th>
         </tr>
     </table>
 </div>
@@ -135,7 +135,7 @@ tr th[scope="row"]::before {
     <h2 class="mb-4">Bulletin nul</h2>
     <table class="table table-bordered table-hover">
         <tr>
-            <th scope="row" colspan="4" style="background-color:green;">Total vote: {{ $Null_vote }}</th>
+            <th scope="row" colspan="4" style="background-color:#FF3131;">Total vote: {{ $Null_vote }}</th>
         </tr>
     </table>
 </div>

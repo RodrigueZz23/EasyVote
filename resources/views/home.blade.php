@@ -87,7 +87,7 @@
 <div class="container">
 <img src="images/lbs.jpg" alt="" style="width: 200px; margin-left:20px; margin-top:-10px;">
 
-       <h1> Welcome, {{ Auth::user()->name }}  🙋‍♂️</h1>
+       <h1> HELLO, {{ Auth::user()->name }}  🙋‍♂️</h1>
        <p>Bienvenue sur <strong style="color: red;">EasyVote</strong>, l'application web innovante qui rend le processus de vote aussi simple que jamais, tout en garantissant la sécurité de chaque voix. Notre plateforme conviviale a été conçue pour faciliter votre expérience de vote, vous permettant d'exprimer votre choix de manière rapide et efficace.<a class="nav-link larger-link color" href="{{ url('/voter') }}">Cliquer ici pour voter</a></p>
       <img src="images/vote-for-blog.jpg" alt="">
       <style>

@@ -116,12 +116,12 @@
     </style>
     <img src="images/lbs.jpg" alt="" style="width: 200px; margin-left:20px; margin-top:10px;">
 
-
+    <h1 style="margin-top: 10px; color:#3498db">Les Resultats ne sont pas encore disponible !</h1>
     <div class="candidate-container">
         <div class="candidate-link1" >
         <table class="table table-bordered table-hover">
         <tr>
-            <th scope="row" colspan="4" style="background-color:green;">00</th>
+            <th scope="row" colspan="4" style="background-color:#42B8FF;">00</th>
         </tr>
     </table>
             <img src="images/im1.jpg" alt="Candidate 1">
@@ -133,7 +133,7 @@
         <div class="candidate-link2" >
         <table class="table table-bordered table-hover">
         <tr>
-            <th scope="row" colspan="4" style="background-color:green;">00</th>
+            <th scope="row" colspan="4" style="background-color:#42B8FF;">00</th>
         </tr>
     </table>
             <img src="images/im2.jpg" alt="Candidate 2">
@@ -145,7 +145,7 @@
         <div class="candidate-link2" >
         <table class="table table-bordered table-hover">
         <tr>
-            <th scope="row" colspan="4" style="background-color:green;">00</th>
+            <th scope="row" colspan="4" style="background-color:#FF3131;"> VOTE NUL 00</th>
         </tr>
     </table>
             <img src="images/im3.png" alt="Candidate 2">

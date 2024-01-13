@@ -16,7 +16,7 @@
         <div class="content">
         <img src="images/lbs.jpg" alt="" style="margin-top: -150px;">
             <h1 class="title">EasyVote</h1>
-            <p class="description">La plateforme qui vous permet de voter facilement.</p>
+            <p class="description">La plateforme qui vous facilite le choix et le vote de votre candidat.</p>
             <div class="buttons">
                 <a href="{{ url('/login') }}"class="login-button">Connectez vous maintenant !</a>
             </div>

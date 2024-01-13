@@ -67,8 +67,6 @@
     color: #fff;
   }
 
-
-
   body {
     font-family: 'Poppins', sans-serif;
 
@@ -86,7 +84,6 @@
     color:#dc3545;
     }
 
-
     .navbar-brand {
         color: black;
     }
@@ -101,16 +98,15 @@
         .images img:hover{
             transform: scale(1.05);
         }
-
     </style>
     <div class="img_lbs">
     <img src="images/lbs.jpg" alt="" style="width: 200px; margin-left:20px; margin-top:-10px;">
     </div>
 
-    <h1>Choisir votre candidat 👇</h1>
+    <h1 style="margin-top: 10px; color:#3498db">Choisir votre candidat 👇</h1>
  <div class="candidate-container">
         <a class="candidate-link1" href="{{ url('/votec1') }}">
-            <img src="images/im1.jpg" alt="Candidate 1">
+            <img src="images/im1.jpg" alt="Candidate 1" class="im1">
             <div class="candidate-info">
 
                 <button class="vote-button">Vote 📩</button>
@@ -125,7 +121,7 @@
             </div>
         </a>
         <a class="candidate-link2" href="{{ url('/bulletin_null') }}">
-            <img src="images/im3.png" alt="null">
+            <img src="images/im3.png" alt="null" class="null-img">
             <div class="candidate-info">
 
            <button class="vote-button">Vote nul 📩</button>
@@ -213,9 +209,6 @@
         .candidate-link2:hover .candidate-info {
             opacity: 1;
         }
-
-
-
         .candidate-name {
             font-size: 24px;
             margin-bottom: 5px;

@@ -19,8 +19,20 @@ class Bulletin_nullController extends Controller
         }
     }
 
+
       public function null_votePost(Request $request)
     {
+
+        $currentDateTime = Carbon::now();
+        $deadline = Carbon::create(2023, 12, 20, 23, 59, 59);
+        $starttime = Carbon::create(2023, 12, 19, 23, 0, 0);
+        if ($currentDateTime->gt($deadline)) {
+            abort(403, 'La date limite pour voter est dépassée.');
+        }
+        if ($currentDateTime->lt($starttime)) {
+            abort(403, 'Il n\'est pas encore l\'heure de voter ');
+        }
+
         $userId = auth()->id();
 
         $hasVoted = Vote::where('user_id', $userId)->exists();

@@ -12,6 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('date_limites', function (Blueprint $table) {
+
             $table->timestamp('date_limite');
         });
     }
@@ -21,6 +22,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('date_limites');
+        Schema::table('date_limites', function (Blueprint $table) {
+          
+        });
     }
 };
